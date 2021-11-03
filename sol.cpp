@@ -17,7 +17,7 @@ int main() {
 	for (int i = it - a.begin(); i < n; i++) {
 		int temp = i;
 		int index = i;
-		// traverse the sequence and count the subarray containg 0s
+		// traverse the sequence and count the subarray containing 0s
 		// if the size of the subarray is greater than 1, then Alena will go home ('cnt' will not increase)
 		// otherwise, she needs to in the campus ('cnt' will increase)
 		// note: if the last element is a 0, then don't count it since there are no more subjects after
